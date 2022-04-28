@@ -10,7 +10,6 @@ export default function HooksImageGallery({
   const [picture, setPicture] = useState(null);
 
   const [status, setStatus] = useState('idle');
-  //   const [error, setError] = useState(null);
 
   useEffect(() => {
     if (pictureName !== '') {
